@@ -6,12 +6,7 @@ if (!defined('APPLICATION_PATH')) {
 }
 
 if (!defined('APPLICATION_ENV')) {
-    if (getenv('APPLICATION_ENV')) {
-        $env = getenv('APPLICATION_ENV');
-    } else {
-        $env = 'testing';
-    }
-    define('APPLICATION_ENV', $env);
+    define('APPLICATION_ENV', 'testing);
 }
 
 set_include_path(implode(PATH_SEPARATOR, array(
