@@ -1,0 +1,3 @@
+code coverage reports..
+
+Need Xdebug installed and tell PHPUnit to create a code coverage report
