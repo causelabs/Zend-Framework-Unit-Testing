@@ -6,7 +6,7 @@ if (!defined('APPLICATION_PATH')) {
 }
 
 if (!defined('APPLICATION_ENV')) {
-    define('APPLICATION_ENV', 'testing);
+    define('APPLICATION_ENV', 'testing');
 }
 
 set_include_path(implode(PATH_SEPARATOR, array(
